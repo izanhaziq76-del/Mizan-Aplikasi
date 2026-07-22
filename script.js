@@ -1,5 +1,7 @@
-function papar(gambar){
+function pilih(gambar){
 
-document.getElementById("besar").src=gambar;
+localStorage.setItem("gambar",gambar);
+
+window.location="gambar.html";
 
 }
